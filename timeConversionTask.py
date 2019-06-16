@@ -1,6 +1,4 @@
 import re
-input = "blabla 01:42:12PM bla bla blablabla bla"
-
 
 def extractTime(text):
     """
@@ -37,9 +35,3 @@ def convertTimeFormat(text):
     else:
         # removing PM
         return str(int(text[:2]) + 12) + text[2:8]
-
-
-a = extractTime(input)
-
-b = convertTimeFormat(a)
-print(b)
