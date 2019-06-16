@@ -16,4 +16,4 @@ convertedTime = timeConversionTask.convertTimeFormat(extractedTime)
 print(convertedTime)
 ```
 ## Output
-You will see converted time in 24 hour format. User will see in this case 13:42:12.
+You will see converted time in 24 hour format. In this case it will be: 13:42:12.
